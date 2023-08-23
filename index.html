@@ -5,10 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Latihan HTML</title>
   </head>
-  <body>
-    <h1>Belajar HTML Hari pertama</h1>
-    <h2>Belajar HTML Hari pertama</h2>
+  <img>
+    <!-- heading halaman utama -->
+    <section>
+      <h1>Ini Heading 1</h1>
+      <h2>Ini Heading 2</h2>
+      <h3>Ini Heading 3</h3>
+      <h4>Ini Heading 4</h4>
+      <h5>Ini Heading 5</h5>
+      <h6>Ini Heading 6</h6>
+    </section>
 
-    <p>hari pertama belajah git dan html</p>
+    <!-- Section Typography -->
+   <section>
+    <b> Ini bold </b> <br />
+    <strong> Ini strong </strong> <br />
+    <i> Ini italic </i> <br />
+    <u> Ini underline </u> <br />
+    <em> Ini emphasized </em> <br />
+    <mark> Ini marked </mark> <br />
+    <small> Ini small </small> <br />
+    <del> Ini deleted </del> <br />
+    <ins> Ini inserted </ins> <br />
+    <sub> Ini subscript </sub> <br />
+    <sup> Ini superscript </sup> <br />
+   </section>
+
+    <h1>Daftar belanja:</h1>
+    <ul type="disc">
+      <li>Beras</li>
+      <li>Minyak goreng</li>
+    </ul>
+    <ul type="circle">
+      <li>Gula</li>
+      <li>Santan</li>
+    </ul>
+    <ul type="square">
+      <li>Merica</li>
+      <li>Ikan</li>
+    </ul>
+
+    <ol type="A">
+      <li>Novita</li>
+      <li>Yoga</li>
+      <li>Arvin</li>
+      <li>Alifia</li>
+      <li>Bella</li>
+    </ol>
+
+    <table border="1">
+      <tr>
+        <th>Nama</th>
+        <th>Code Name</th>
+        <th>Alamat</th>
+      </tr>
+      <tr>
+        <td>Panji Gumelar</td>
+        <td>Panji si Petir</td>
+        <td>Outside Universe</td>
+      </tr>
+      <tr>
+        <td>Arsyad Sukma</td>
+        <td>Black is Dark</td>
+        <td>Inside your Shadow</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <form>
+      <div>
+        <label for="user">Username:</label>
+        <input id="user" type="text" placeholder="username" />
+      </div>
+
+      <div>
+        <label for="pw-user">password:</label>
+        <input id="pw-user" type="password" required placeholder="password" />
+      </div>
+
+      <p><input type="checkbox" /></p>
+      <p><input type="radio" /></p>
+      <p><input type="number" min="1" max="10" /></p>
+      <p><textarea rows="8" cols="30">Ketik di sini</textarea></p>
+
+      <p><input type="submit" value="OK" /></p>
+    </form>
+
+    <button type="button">Tombol</button>
+    <button type="button" onclick="alert('Belajar Form Input');">Apply</button>
+
+    <br />
+
+    <p>Apa hewan kesukaanmu ?</p>
+    <select>
+      <option>Kucing</option>
+      <option>Kudanil</option>
+      <option>Digimon</option>
+    </select>
+
+    <br />
+
+    <p>Minuman Favoritmu ?</p>
+    <select>
+      <optgroup label="jus-buah">
+        <option>Jambu</option>
+        <option>Wortel</option>
+        <option>Kiwi</option>
+      </optgroup>
+
+      <optgroup label="kopi">
+        <option>Americano</option>
+        <option>Africano</option>
+        <option>Indonesiano</option>
+      </optgroup>
+    </select>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Image -->
+    <img src="./images/ikan.jpeg" alt="ikan" height="100" width="100" />
+
+    <!-- paragraph pertama -->
+    <p>
+      <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the
+      <br />
+      <br />
+      <br />
+      industry's standard dummy text ever since the 1500s, when an unknown
+      printer took a galley of type and scrambled it to make a type specimen
+      book.
+    </p>
+
+    <!-- Garis horizontal -->
+    <hr />
+    <h4 id="sub-title">Belajar Judul</h4>
+
+    <!-- paragraph kedua -->
+    <p>
+      Lorem Ipsum is simply <span>dummy text of the </span> printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    </p>
+    
+    <!-- a (anchor) -->
+    <a href="https://kursusmania.com" target="_blank">ini adalah sebuah link</a>
+
+    <!-- Articles -->
+    <article>
+      <header>
+        <h1>Header Artikel</h1>
+        <p>Selamat datang!</p>
+      </header>
+      <section class="main">
+        <p>Ini konten utama.</p>
+        <aside>
+          <h2>Ini Snippet!</h2>
+          <p>Ini teks Snippet</p>
+        </aside>
+      </section>
+      <footer>
+        <p>Bye!</p>
+      </footer>
+    </article>
+
   </body>
 </html>
