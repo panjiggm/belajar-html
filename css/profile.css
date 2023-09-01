@@ -1,0 +1,15 @@
+li:nth-child(odd) {
+  color: red;
+}
+
+/* #name {
+  border: none;
+} */
+
+#name:focus {
+  background-color: lightblue;
+}
+
+#email:focus {
+  background-color: violet;
+}

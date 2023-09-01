@@ -1,0 +1,74 @@
+/* div {
+  width: 85px;
+  height: 85px;
+}
+
+.class-selector {
+}
+
+#relative-example {
+  position: relative;
+  border: 2px solid red;
+  background-color: rgb(238, 201, 214);
+  top: 20px;
+  left: 20px;
+}
+
+#relative-example:hover {
+  background-color: blue;
+}
+
+#relative-div {
+  position: relative;
+  background-color: gold;
+  top: 20px;
+  left: 20px;
+}
+
+#absolute-div {
+  position: absolute;
+  background-color: limegreen;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 100px;
+}
+
+#fixed-div {
+  position: fixed;
+  background-color: aquamarine;
+  bottom: 20px;
+  left: 20px;
+} */
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: blue;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+}
+@media screen and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+  #container {
+    display: flex;
+    flex-direction: row;
+    color: aquamarine;
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    background-color: greenyellow;
+  }
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: red;
+  }
+}
