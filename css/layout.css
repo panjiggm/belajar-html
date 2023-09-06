@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+}
